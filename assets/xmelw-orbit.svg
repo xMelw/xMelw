@@ -1,0 +1,44 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120" fill="none">
+  <defs>
+    <linearGradient id="line" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E2D9E5" stop-opacity="0"/>
+      <stop offset=".22" stop-color="#755477"/>
+      <stop offset=".78" stop-color="#755477"/>
+      <stop offset="1" stop-color="#E2D9E5" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#EDE5EF"/>
+      <stop offset="1" stop-color="#755477" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="120" rx="8" fill="#FCFBFD"/>
+  <path d="M0 60H1200" stroke="url(#line)" stroke-width="1"/>
+  <ellipse cx="600" cy="60" rx="135" ry="38" stroke="#E2D9E5" stroke-width="1"/>
+  <ellipse cx="600" cy="60" rx="135" ry="38" stroke="#755477" stroke-width="1"
+    stroke-dasharray="30 240" opacity=".8">
+    <animateTransform attributeName="transform" type="rotate"
+      from="0 600 60" to="360 600 60" dur="18s" repeatCount="indefinite"/>
+  </ellipse>
+  <circle cx="600" cy="60" r="44" fill="url(#glow)" opacity=".9"/>
+  <circle cx="600" cy="60" r="25" fill="#302733"/>
+  <text x="600" y="67" text-anchor="middle" fill="#FCFBFD"
+    font-family="Georgia,serif" font-size="25" font-style="italic">m.</text>
+
+  <g fill="#755477">
+    <circle cx="120" cy="60" r="2"/>
+    <circle cx="1080" cy="60" r="2"/>
+    <circle cx="285" cy="60" r="1.5"/>
+    <circle cx="915" cy="60" r="1.5"/>
+  </g>
+
+  <g fill="#755477" font-family="Arial,sans-serif" font-size="9" letter-spacing="3">
+    <text x="42" y="48">DESIGN WITH INTENTION</text>
+    <text x="1158" y="48" text-anchor="end">BUILT WITH CURIOSITY</text>
+  </g>
+  <g fill="#302733" font-family="Arial,sans-serif" font-size="8" letter-spacing="2">
+    <text x="42" y="78">01 / EXPLORE</text>
+    <text x="1158" y="78" text-anchor="end">02 / CREATE</text>
+  </g>
+</svg>
