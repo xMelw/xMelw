@@ -17,12 +17,12 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - name: Generate snake SVG with custom plum palette
+      - name: Generate snake SVG with refined plum palette
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: xMelw
           outputs: |
-            dist/github-readme-snake-plum.svg?color_snake=#FFFFFF&color_dots=#302733,#49374D,#755477,#B99BC1,#EDE5EF
+            dist/github-readme-snake-plum.svg?color_snake=#FFFFFF&color_dots=#302733,#58415c,#755477,#b99bc1,#ede5ef
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
