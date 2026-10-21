@@ -92,11 +92,12 @@
 </p>
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/xMelw/xMelw/output/github-readme-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/xMelw/xMelw/output/github-readme-snake.svg">
-    <img src="https://raw.githubusercontent.com/xMelw/xMelw/output/github-readme-snake.svg" alt="Contribution snake" width="100%" />
-  </picture>
+  <div style="border: 1px solid rgba(237, 229, 239, 0.12); border-radius: 8px; padding: 16px; background: rgba(48, 39, 51, 0.4); max-width: 890px;">
+    <p style="font-family: Georgia, serif; font-style: italic; color: #b99bc1; font-size: 14px; margin-bottom: 12px;">
+      ✦ Activity Trace
+    </p>
+    <img src="https://raw.githubusercontent.com/xMelw/xMelw/output/github-readme-snake-plum.svg" alt="Activity Snake" width="100%" />
+  </div>
 </div>
 
 <br/>
