@@ -2,8 +2,8 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 */12 * * *" # Executa automaticamente a cada 12 horas
-  workflow_dispatch: # Permite que o possas executar manualmente
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -17,16 +17,13 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      # Gera a animação em formato SVG a partir das tuas contribuições
-      - name: Generate snake SVG
+      - name: Generate snake SVG with custom plum palette
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: xMelw
           outputs: |
-            dist/github-readme-snake.svg
-            dist/github-readme-snake-dark.svg?palette=github-dark
+            dist/github-readme-snake-plum.svg?color_snake=#FFFFFF&color_dots=#302733,#49374D,#755477,#B99BC1,#EDE5EF
 
-      # Envia o ficheiro SVG gerado para uma branch isolada chamada 'output'
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
