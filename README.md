@@ -1,191 +1,111 @@
 <div align="center">
-
-<img src="./assets/xmelw-hero.svg" width="100%" alt="xMelw — Digital Atelier" />
-
-<br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=DM+Mono&size=12&duration=2200&pause=700&color=B99BC1&center=true&vCenter=true&repeat=true&width=440&height=35&lines=VISUAL+THINKING.+THOUGHTFUL+CODE.;AESTHETICS+WITH+INTENTION.;MADE+OF+DETAILS+AND+IDEAS." alt="Creative philosophy" />
-
-<br/><br/>
-
-<sub>✳ &nbsp; MULTIMEDIA BACKGROUND &nbsp; · &nbsp; FRONTEND MINDSET &nbsp; ✳</sub>
-
-<br/><br/>
-
+  <img src="./assets/xmelw-hero.svg" width="100%" alt="xMelw — Digital Atelier" />
 </div>
+
+<p align="center" style="font-family: 'Cinzel', serif; letter-spacing: 2px; font-size: 13px;">
+  <a href="#about" style="color: #c0b9d8; text-decoration: none;">ABOUT</a>
+  &nbsp;·&nbsp;
+  <a href="#selected-work" style="color: #c0b9d8; text-decoration: none;">SELECTED WORK</a>
+  &nbsp;·&nbsp;
+  <a href="#my-approach" style="color: #c0b9d8; text-decoration: none;">MY APPROACH</a>
+  &nbsp;·&nbsp;
+  <a href="#currently" style="color: #c0b9d8; text-decoration: none;">CURRENTLY</a>
+</p>
+
+<p align="center">
+  <img src="./assets/xmelw-orbit.svg" width="100%" alt="" />
+</p>
+
+<h2 style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 300; font-style: italic; font-size: 32px; letter-spacing: 0.5px;">About</h2>
+
+<p style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 20px; line-height: 1.6;">
+  I'm Melissa Vieira — a developer blending <strong>programming logic</strong> with a background in <strong>multimedia</strong>.
+</p>
+
+<p style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 19px; line-height: 1.6; color: #a19bb5;">
+  I bridge the gap between how a digital product feels and how it works behind the scenes.
+</p>
+
+<details>
+<summary style="font-family: 'Cinzel', serif; font-size: 12px; letter-spacing: 1.5px; cursor: pointer;"><strong>QUICK SNAPSHOT</strong></summary>
+
+<br />
+
+- **Focus** — Front-end, Web Design & UI/UX
+- **Roots** — Programming & Multimedia
+- **Mindset** — Curiosity, detail & intention
+
+</details>
 
 ---
 
-<div align="center">
-
-<sub>01 — THE PERSON BEHIND THE PIXELS</sub>
-
-</div>
-
-<br/>
+<h2 style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 300; font-style: italic; font-size: 32px; letter-spacing: 0.5px;">Selected work</h2>
 
 <table>
-<tr>
-<td width="65%" valign="top">
+  <tr>
+    <td width="50%" valign="top">
+      <p style="font-family: 'Cinzel', serif; font-size: 11px; letter-spacing: 1px;"><sub>01 / INTERNSHIP</sub></p>
+      <h3 style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 500; font-size: 24px;">Contact Center Experience</h3>
+      <p style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 18px; color: #a19bb5;">Contact Center & Unified Communications solutions developed at Altice.</p>
 
-### Hello, I'm Melissa.
+      <br />
+      <sub style="font-family: 'Cinzel', serif; font-size: 10px; letter-spacing: 1.5px;">ANGULAR · FRONT-END</sub>
+      <br /><br />
+      <a href="https://github.com/xMewl/CallCenterPrototype.git" style="font-size: 14px; text-decoration: none;">Explore project ↗</a>
+    </td>
+    <!--
+    <td width="50%" valign="top">
+      <p style="font-family: 'Cinzel', serif; font-size: 11px; letter-spacing: 1px;"><sub>02 / PRACTICE</sub></p>
+      <h3 style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 500; font-size: 24px;">React in Action</h3>
+      <p style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 18px; color: #a19bb5;">Exploring component architecture and reactive interfaces.</p>
 
-I love the space where **design meets technology**.
-
-With a background in Multimedia and Programming, I approach the web as both a visual canvas and a functional experience.
-
-I'm drawn to thoughtful interfaces, distinctive details and the feeling of turning an idea into something real.
-
-</td>
-<td width="35%" valign="middle" align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=rounded&color=EDE5EF&height=130&section=header&text=m.&fontSize=64&fontColor=755477&animation=fadeIn" width="100%" alt="M monogram"/>
-
-<sub>DESIGN × CODE</sub>
-
-</td>
-</tr>
+      <br />
+      <sub style="font-family: 'Cinzel', serif; font-size: 10px; letter-spacing: 1.5px;">REACT · UI DEVELOPMENT</sub>
+      <br /><br />
+      <a href="LINK_PARA_O_REPOSITORIO_REACT" style="font-size: 14px; text-decoration: none;">Explore project ↗</a>
+    </td>
+    -->
+  </tr>
 </table>
 
-<br/>
-
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=DM+Mono&size=11&duration=2600&pause=500&color=755477&center=true&vCenter=true&repeat=true&width=500&height=26&lines=THINK+IN+LAYOUTS.;NOTICE+THE+DETAILS.;BUILD+WITH+PURPOSE.;MAKE+IT+FEEL+RIGHT." alt="Creative process"/>
-
-</div>
-
-<br/>
-
 ---
 
-<div align="center">
-
-<sub>02 — A FEW THINGS I'VE BEEN CREATING</sub>
-
-# Selected work
-
-<sub>A little glimpse into my digital world.</sub>
-
-</div>
-
-<br/>
-
-<details>
-<summary>✳ &nbsp; <b>01 / Contact Center</b> — Angular</summary>
-
-<br/>
-
-> Professional experience · Altice
-
-A web application focused on Contact Center and Unified Communications solutions, developed during my internship at Altice.
-
-**Focus:** frontend development · web applications
-
-</details>
-
-<br/>
-
-<details>
-<summary>◇ &nbsp; <b>02 / Interactive Web</b> — React</summary>
-
-<br/>
-
-> Academic project
-
-A web development project exploring interactive interfaces, visual structure and the relationship between design and functionality.
-
-**Focus:** React · interface development
-
-</details>
-
-<br/>
-
-<details>
-<summary>♡ &nbsp; <b>03 / Stylem</b> — Personal portfolio</summary>
-
-<br/>
-
-> An ongoing personal project
-
-A digital space built around my interest in visual identity, elegant web design and thoughtful frontend experiences.
-
-**Focus:** branding · web design · frontend
-
-</details>
-
-<br/>
-
----
-
-<div align="center">
-
-<sub>03 — MY CREATIVE COMPASS</sub>
-
-<br/><br/>
+<h2 style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 300; font-style: italic; font-size: 32px; letter-spacing: 0.5px;">My approach</h2>
 
 <table>
-<tr>
-<td align="center" width="33%">
-
-✳
-
-<br/><br/>
-
-**Visual**
-
-<br/>
-
-<sub>Colour, typography<br/>and composition.</sub>
-
-</td>
-<td align="center" width="33%">
-
-⌘
-
-<br/><br/>
-
-**Interactive**
-
-<br/>
-
-<sub>Interfaces that feel<br/>natural to use.</sub>
-
-</td>
-<td align="center" width="33%">
-
-◇
-
-<br/><br/>
-
-**Intentional**
-
-<br/>
-
-<sub>Details that make<br/>a difference.</sub>
-
-</td>
-</tr>
+  <tr>
+    <td width="33%" valign="top">
+      <p style="font-family: 'Cinzel', serif; font-size: 11px; letter-spacing: 1px;"><sub>01</sub></p>
+      <h3 style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 500; font-size: 22px;">Explore</h3>
+      <p style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 17px; color: #a19bb5;">Understand the concept and the people behind the screen.</p>
+    </td>
+    <td width="33%" valign="top">
+      <p style="font-family: 'Cinzel', serif; font-size: 11px; letter-spacing: 1px;"><sub>02</sub></p>
+      <h3 style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 500; font-size: 22px;">Create</h3>
+      <p style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 17px; color: #a19bb5;">Merge structure and visual direction into purposeful UIs.</p>
+    </td>
+    <td width="33%" valign="top">
+      <p style="font-family: 'Cinzel', serif; font-size: 11px; letter-spacing: 1px;"><sub>03</sub></p>
+      <h3 style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 500; font-size: 22px;">Refine</h3>
+      <p style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 17px; color: #a19bb5;">Polish details, test ideas and elevate the final craft.</p>
+    </td>
+  </tr>
 </table>
 
-<br/>
+---
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=302733&height=3&section=footer" width="100%" alt="Plum divider"/>
+<h2 style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 300; font-style: italic; font-size: 32px; letter-spacing: 0.5px;">Currently</h2>
 
-<br/><br/>
+<p style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 19px; line-height: 1.6; color: #a19bb5;">
+  Refining front-end skills, exploring micro-interactions, and building interfaces that feel intuitive and alive.
+</p>
 
-### Still exploring. Always creating.
+---
 
-<sub>DESIGNED WITH CURIOSITY · BUILT WITH INTENTION</sub>
+<p align="center">
+  <img src="./assets/xmelw-orbit.svg" width="100%" alt="" />
+</p>
 
-<br/><br/>
-
-<a href="https://github.com/xMelw">
-<img src="https://img.shields.io/badge/EXPLORE-MY%20GITHUB-755477?style=for-the-badge&labelColor=302733" alt="Explore my GitHub"/>
-</a>
-
-<br/><br/>
-
-<sub>Melissa Vieira &nbsp; · &nbsp; Portugal &nbsp; · &nbsp; M /</sub>
-
-</div>
+<p align="center" style="font-family: 'Cinzel', serif; font-size: 11px; letter-spacing: 2px;">
+  <sub>DESIGNED WITH INTENTION · BUILT WITH CURIOSITY</sub>
+</p>
