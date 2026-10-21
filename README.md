@@ -2,114 +2,118 @@
   <img src="./assets/xmelw-hero.svg" width="100%" alt="xMelw — Digital Atelier" />
 </div>
 
+<br/>
+
 <p align="center">
-  <a href="#about" style="color: #e0b97a; text-decoration: none;">ABOUT</a>
-  &nbsp;·&nbsp;
-  <a href="#selected-work" style="color: #e0b97a; text-decoration: none;">SELECTED WORK</a>
-  &nbsp;·&nbsp;
-  <a href="#my-approach" style="color: #e0b97a; text-decoration: none;">MY APPROACH</a>
-  &nbsp;·&nbsp;
-  <a href="#currently" style="color: #e0b97a; text-decoration: none;">CURRENTLY</a>
+  <a href="#about">About</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="#selected-work">Selected work</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="#my-approach">My approach</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="#dashboard">Dashboard</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="#currently">Currently</a>
 </p>
 
 <p align="center">
   <img src="./assets/xmelw-orbit.svg" width="100%" alt="" />
 </p>
 
-<h2 id="about">About</h2>
+<br/>
 
-I'm Melissa Vieira — a developer blending **programming logic** with a background in **multimedia**.
+<h2 align="center" id="about"><i>About</i></h2>
 
-I bridge the gap between how a digital product feels and how it works behind the scenes.
+<p align="center">
+  I'm <b>Melissa Vieira</b>, a developer blending <b>programming logic</b><br/>
+  with a background in <b>multimedia</b>.
+</p>
 
-<details>
-<summary><strong>QUICK SNAPSHOT</strong></summary>
+<p align="center">
+  <i>I bridge the gap between how a digital product feels<br/>and how it works behind the scenes.</i>
+</p>
 
-<br />
+<details open>
+<summary align="center"><b>Quick snapshot</b></summary>
+<br/>
 
-- **Focus** — Front-end, Web Design & UI/UX
-- **Roots** — Programming & Multimedia
-- **Mindset** — Curiosity, detail & intention
+<table align="center">
+  <tr><td align="right"><b>Focus</b></td><td>Front-end, Web Design &amp; UI/UX</td></tr>
+  <tr><td align="right"><b>Roots</b></td><td>Programming &amp; Multimedia</td></tr>
+  <tr><td align="right"><b>Toolbox</b></td><td>TypeScript, Angular, TanStack Start, Supabase</td></tr>
+  <tr><td align="right"><b>Mindset</b></td><td>Curiosity, detail &amp; intention</td></tr>
+</table>
 
 </details>
 
----
+<br/>
 
-<h2 id="selected-work">Selected work</h2>
+<h2 align="center" id="selected-work"><i>Selected work</i></h2>
 
-<table>
-  <tr>
-    <td width="100%" valign="top">
-      <sub>01 / INTERNSHIP</sub>
-      <h3>Contact Center Experience</h3>
-      <p>Contact Center & Unified Communications solutions developed at Altice.</p>
-      <sub>ANGULAR · FRONT-END</sub>
-      <br /><br />
-      <a href="https://github.com/xMelw/CallCenterPrototype">Explore project ↗</a>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://github.com/xMelw/CallCenterPrototype">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=xMelw&repo=CallCenterPrototype&theme=tokyonight&hide_border=true&bg_color=302733&title_color=EDE5EF&icon_color=B99BC1&text_color=DCCBDD" alt="Call Center Prototype" />
+  </a>
+</p>
 
-<!-- 
-  Para adicionares o segundo projeto no futuro, basta descomentar o bloco abaixo:
-  <table>
-    <tr>
-      <td width="100%" valign="top">
-        <sub>02 / PRACTICE</sub>
-        <h3>React in Action</h3>
-        <p>Exploring component architecture and reactive interfaces.</p>
-        <sub>REACT · UI DEVELOPMENT</sub>
-        <br /><br />
-        <a href="LINK_DO_REPOSITORIO">Explore project ↗</a>
-      </td>
-    </tr>
-  </table>
+<!--
+  Segundo projeto (copia este bloco e troca o nome do repositório):
+  <p align="center">
+    <a href="https://github.com/xMelw/NOME_DO_REPO">
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=xMelw&repo=NOME_DO_REPO&theme=tokyonight&hide_border=true&bg_color=302733&title_color=EDE5EF&icon_color=B99BC1&text_color=DCCBDD" alt="Project" />
+    </a>
+  </p>
 -->
 
----
+<br/>
 
-<h2 id="my-approach">My approach</h2>
+<h2 align="center" id="my-approach"><i>My approach</i></h2>
 
-<table>
+<table width="100%">
   <tr>
-    <td width="33%" valign="top">
-      <sub>01</sub>
-      <h3>Explore</h3>
-      <p>Understand the concept and the people behind the screen.</p>
-    </td>
-    <td width="33%" valign="top">
-      <sub>02</sub>
-      <h3>Create</h3>
-      <p>Merge structure and visual direction into purposeful UIs.</p>
-    </td>
-    <td width="33%" valign="top">
-      <sub>03</sub>
-      <h3>Refine</h3>
-      <p>Polish details, test ideas and elevate the final craft.</p>
-    </td>
+    <th width="33%">01 &nbsp; Explore</th>
+    <th width="33%">02 &nbsp; Create</th>
+    <th width="33%">03 &nbsp; Refine</th>
+  </tr>
+  <tr>
+    <td align="center" valign="top">Understand the concept and the people behind the screen.</td>
+    <td align="center" valign="top">Merge structure and visual direction into purposeful UIs.</td>
+    <td align="center" valign="top">Polish details, test ideas and elevate the final craft.</td>
   </tr>
 </table>
 
----
+<br/>
 
-<h2 id="currently">Currently</h2>
+<h2 align="center" id="dashboard"><i>Dashboard</i></h2>
 
-Refining front-end skills, exploring micro-interactions, and building interfaces that feel intuitive and alive.
-
----
-
-<h3 align="center" style="color: #e0b97a;">Activity Trace</h3>
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=xMelw&show_icons=true&theme=tokyonight&hide_border=true&bg_color=302733&title_color=EDE5EF&icon_color=B99BC1&text_color=DCCBDD&locale=en" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=xMelw&layout=compact&theme=tokyonight&hide_border=true&bg_color=302733&title_color=EDE5EF&text_color=DCCBDD" alt="Top languages" />
+</p>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/xMelw/xMelw/output/github-readme-snake-dark.svg" alt="Snake Animation" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/xMelw/xMelw/output/github-readme-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/xMelw/xMelw/output/github-readme-snake.svg">
+    <img src="https://raw.githubusercontent.com/xMelw/xMelw/output/github-readme-snake.svg" alt="Contribution snake" width="100%" />
+  </picture>
 </div>
 
----
+<br/>
+
+<h2 align="center" id="currently"><i>Currently</i></h2>
+
+<p align="center">
+  Refining front-end skills, exploring micro-interactions,<br/>
+  and building interfaces that feel intuitive and alive.
+</p>
+
+<br/>
 
 <p align="center">
   <img src="./assets/xmelw-orbit.svg" width="100%" alt="" />
 </p>
 
 <p align="center">
-  <sub>DESIGNED WITH INTENTION · BUILT WITH CURIOSITY</sub>
+  <sub>Made with intention &nbsp;·&nbsp; Built with curiosity</sub>
 </p>
