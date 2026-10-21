@@ -1,1 +1,140 @@
 
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="340" viewBox="0 0 1200 340"
+     role="img" aria-labelledby="title desc">
+
+  <title id="title">xMelw — Digital Atelier</title>
+  <desc id="desc">Animated plum editorial banner.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#302733"/>
+      <stop offset="100%" stop-color="#49374D"/>
+    </linearGradient>
+
+    <linearGradient id="shine">
+      <stop offset="0%" stop-color="#755477" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#EDE5EF" stop-opacity=".9"/>
+      <stop offset="100%" stop-color="#755477" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="halo">
+      <stop offset="0%" stop-color="#755477" stop-opacity=".55"/>
+      <stop offset="100%" stop-color="#755477" stop-opacity="0"/>
+    </radialGradient>
+
+    <clipPath id="frame">
+      <rect width="1200" height="340" rx="5"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="340" fill="url(#bg)"/>
+
+    <!-- Ambient light -->
+    <ellipse cx="930" cy="135" rx="300" ry="220" fill="url(#halo)">
+      <animate attributeName="rx" values="250;330;250"
+               dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".45;.8;.45"
+               dur="7s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <!-- Fine editorial grid -->
+    <g stroke="#EDE5EF" stroke-opacity=".07" stroke-width="1">
+      <path d="M60 0V340 M120 0V340 M180 0V340 M240 0V340"/>
+      <path d="M0 60H1200 M0 120H1200 M0 180H1200 M0 240H1200 M0 300H1200"/>
+    </g>
+
+    <!-- Orbital detail -->
+    <g transform="translate(960 166)">
+      <circle r="103" fill="none" stroke="#EDE5EF"
+              stroke-opacity=".25" stroke-width="1">
+        <animateTransform attributeName="transform"
+          type="rotate" from="0" to="360" dur="48s"
+          repeatCount="indefinite"/>
+      </circle>
+
+      <ellipse rx="140" ry="48" fill="none"
+               stroke="#B99BC1" stroke-opacity=".65"
+               stroke-width="1" transform="rotate(-35)">
+        <animateTransform attributeName="transform"
+          additive="sum" type="rotate"
+          from="0" to="-360" dur="36s"
+          repeatCount="indefinite"/>
+      </ellipse>
+
+      <circle cx="0" cy="-103" r="4" fill="#EDE5EF">
+        <animateTransform attributeName="transform"
+          type="rotate" from="0" to="360"
+          dur="18s" repeatCount="indefinite"/>
+      </circle>
+
+      <circle r="58" fill="none" stroke="#755477"
+              stroke-width="1.5"/>
+
+      <text x="0" y="18" text-anchor="middle"
+            fill="#EDE5EF" font-size="70"
+            font-family="Georgia,serif"
+            font-style="italic">m.</text>
+    </g>
+
+    <!-- Identity -->
+    <text x="76" y="55" fill="#DCCBDD"
+          font-family="monospace" font-size="11"
+          letter-spacing="4">X M E L W / DIGITAL ATELIER</text>
+
+    <path d="M76 76H290" stroke="#755477" stroke-width="1"/>
+
+    <text x="76" y="151" fill="#FCFBFD"
+          font-family="Georgia,serif" font-size="47">
+      Design is a feeling.
+      <animate attributeName="opacity"
+               values="0;1;1" keyTimes="0;.25;1"
+               dur="2.4s" fill="freeze"/>
+    </text>
+
+    <text x="76" y="207" fill="#DCCBDD"
+          font-family="Georgia,serif" font-size="43"
+          font-style="italic">Code makes it real.
+      <animate attributeName="opacity"
+               values="0;0;1" keyTimes="0;.35;1"
+               dur="3.2s" fill="freeze"/>
+    </text>
+
+    <text x="78" y="267" fill="#EDE5EF"
+          font-family="monospace" font-size="10"
+          letter-spacing="2.2">WEB DESIGN · FRONTEND · UI/UX</text>
+
+    <!-- Animated hairline -->
+    <rect x="78" y="289" width="0" height="1"
+          fill="url(#shine)">
+      <animate attributeName="width"
+               values="0;440;440"
+               keyTimes="0;.7;1"
+               dur="3.5s" fill="freeze"/>
+    </rect>
+
+    <!-- Floating accents -->
+    <g fill="#DCCBDD">
+      <circle cx="730" cy="78" r="2">
+        <animate attributeName="cy" values="78;65;78"
+                 dur="5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values=".3;1;.3"
+                 dur="5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1090" cy="276" r="2">
+        <animate attributeName="cy" values="276;290;276"
+                 dur="6s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="820" cy="265" r="1.5">
+        <animate attributeName="opacity" values=".2;1;.2"
+                 dur="4s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <text x="1120" y="318" text-anchor="end"
+          fill="#DCCBDD" fill-opacity=".75"
+          font-family="monospace" font-size="9"
+          letter-spacing="2">MADE WITH INTENTION</text>
+  </g>
+</svg>
