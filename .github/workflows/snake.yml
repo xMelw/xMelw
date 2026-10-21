@@ -1,34 +1,21 @@
-name: Generate Snake Animation
-
+name: Generate snake
 on:
-  schedule:
-    - cron: "0 */12 * * *" # Executa a cada 12 horas
-  workflow_dispatch: # Permite execução manual
-  push:
-    branches:
-      - main
-      - master
-
+  schedule: [{ cron: "0 0 * * *" }]
+  workflow_dispatch:
+  push: { branches: [main] }
+permissions:
+  contents: write
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Generate github-readme-snake.svg
-        uses: Platane/svg-snk@v3
+      - uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: xMelw
+          github_user_name: xMel
           outputs: |
-            assets/github-readme-snake.svg
-            assets/github-readme-snake-dark.svg?palette=github-dark
-
-      - name: Push snake animation to assets
-        uses: stefanzweifel/git-auto-commit-action@v5
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+      - uses: crazy-max/github-pages-deploy-action@v4
         with:
-          commit_message: "Update git-readme-snake animation"
-          file_pattern: assets/github-readme-snake*.svg
+          branch: output
+          folder: dist
