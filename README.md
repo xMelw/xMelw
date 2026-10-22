@@ -1,120 +1,154 @@
+
 <div align="center">
   <img src="./assets/xmelw-hero.svg" width="100%" alt="xMelw — Digital Atelier" />
 </div>
 
-<br/>
-
 <p align="center">
-  <a href="#about">About</a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="#selected-work">Selected work</a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="#my-approach">My approach</a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="#dashboard">Dashboard</a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="#currently">Currently</a>
-</p>
-
-<p align="center">
-  <img src="./assets/xmelw-orbit.svg" width="100%" alt="" />
-</p>
-
-<br/>
-
-<h2 align="center" id="about"><i>About</i></h2>
-
-<p align="center">
-  I'm <b>Melissa Vieira</b>, a developer blending <b>programming logic</b><br/>
-  with a background in <b>multimedia</b>.
-</p>
-
-<p align="center">
-  <i>I bridge the gap between how a digital product feels<br/>and how it works behind the scenes.</i>
-</p>
-
-<details open>
-<summary align="center"><b>Quick snapshot</b></summary>
-<br/>
-
-<table align="center">
-  <tr><td align="right"><b>Focus</b></td><td>Front-end, Web Design &amp; UI/UX</td></tr>
-  <tr><td align="right"><b>Roots</b></td><td>Programming &amp; Multimedia</td></tr>
-  <tr><td align="right"><b>Toolbox</b></td><td>TypeScript, Angular, TanStack Start, Supabase</td></tr>
-  <tr><td align="right"><b>Mindset</b></td><td>Curiosity, detail &amp; intention</td></tr>
-</table>
-
-</details>
-
-<br/>
-
-<h2 align="center" id="selected-work"><i>Selected work</i></h2>
-
-<p align="center">
-  <a href="https://github.com/xMelw/CallCenterPrototype">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=xMelw&repo=CallCenterPrototype&theme=tokyonight&hide_border=true&bg_color=302733&title_color=EDE5EF&icon_color=B99BC1&text_color=DCCBDD" alt="Call Center Prototype" />
-  </a>
-</p>
-
-<!--
-  Segundo projeto (copia este bloco e troca o nome do repositório):
-  <p align="center">
-    <a href="https://github.com/xMelw/NOME_DO_REPO">
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=xMelw&repo=NOME_DO_REPO&theme=tokyonight&hide_border=true&bg_color=302733&title_color=EDE5EF&icon_color=B99BC1&text_color=DCCBDD" alt="Project" />
-    </a>
-  </p>
--->
-
-<br/>
-
-<h2 align="center" id="my-approach"><i>My approach</i></h2>
-
-<table width="100%">
-  <tr>
-    <th width="33%">01 &nbsp; Explore</th>
-    <th width="33%">02 &nbsp; Create</th>
-    <th width="33%">03 &nbsp; Refine</th>
-  </tr>
-  <tr>
-    <td align="center" valign="top">Understand the concept and the people behind the screen.</td>
-    <td align="center" valign="top">Merge structure and visual direction into purposeful UIs.</td>
-    <td align="center" valign="top">Polish details, test ideas and elevate the final craft.</td>
-  </tr>
-</table>
-
-<br/>
-
-<h2 align="center" id="dashboard"><i>Dashboard</i></h2>
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=xMelw&show_icons=true&theme=tokyonight&hide_border=true&bg_color=302733&title_color=EDE5EF&icon_color=B99BC1&text_color=DCCBDD&locale=en" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=xMelw&layout=compact&theme=tokyonight&hide_border=true&bg_color=302733&title_color=EDE5EF&text_color=DCCBDD" alt="Top languages" />
+  <a href="#about"><i>About</i></a>
+  &nbsp; · &nbsp;
+  <a href="#toolkit"><i>Toolkit</i></a>
+  &nbsp; · &nbsp;
+  <a href="#selected-work"><i>Selected work</i></a>
+  &nbsp; · &nbsp;
+  <a href="#approach"><i>Approach</i></a>
+  &nbsp; · &nbsp;
+  <a href="#activity"><i>Activity</i></a>
 </p>
 
 <div align="center">
-  <div style="border: 1px solid rgba(237, 229, 239, 0.12); border-radius: 8px; padding: 16px; background: rgba(48, 39, 51, 0.4); max-width: 890px;">
-    <p style="font-family: Georgia, serif; font-style: italic; color: #b99bc1; font-size: 14px; margin-bottom: 12px;">
-      ✦ Activity Trace
-    </p>
-    <img src="https://raw.githubusercontent.com/xMelw/xMelw/output/github-readme-snake-plum.svg" alt="Activity Snake" width="100%" />
-  </div>
+  <img src="./assets/xmelw-orbit.svg" width="100%" alt="" />
 </div>
 
-<br/>
+<h2 id="about"><i>01 / About</i></h2>
 
-<h2 align="center" id="currently"><i>Currently</i></h2>
+<table>
+<tr>
+<td width="68%" valign="middle">
 
-<p align="center">
-  Refining front-end skills, exploring micro-interactions,<br/>
-  and building interfaces that feel intuitive and alive.
+### Where design meets development.
+
+I'm **Melissa Vieira**, a developer with a background in Programming and Multimedia.
+
+My interests lie in front-end development, web design and UI/UX — combining technical thinking with a considered approach to visual design and user experience.
+
+</td>
+<td width="38%" align="center" valign="middle">
+
+<img src="https://readme-typing-svg.demolab.com?font=Georgia&style=italic&size=17&duration=3200&pause=900&color=755477&center=true&vCenter=true&width=220&height=90&lines=Design+with+intention;Build+with+curiosity;Refine+every+detail" alt="Design with intention. Build with curiosity. Refine every detail." />
+
+</td>
+</tr>
+</table>
+
+---
+
+<h2 id="toolkit"><i>02 / Toolkit</i></h2>
+
+<p><i>Design & visual communication</i></p>
+
+<p>
+  <img src="https://img.shields.io/badge/Figma-302733?style=flat-square&logo=figma&logoColor=EDE5EF" alt="Figma" />
+  <img src="https://img.shields.io/badge/Photoshop-302733?style=flat-square&logo=adobephotoshop&logoColor=EDE5EF" alt="Photoshop" />
+  <img src="https://img.shields.io/badge/Illustrator-302733?style=flat-square&logo=adobeillustrator&logoColor=EDE5EF" alt="Illustrator" />
+  <img src="https://img.shields.io/badge/Canva-302733?style=flat-square&logo=canva&logoColor=EDE5EF" alt="Canva" />
 </p>
 
-<br/>
+<p><i>Web development</i></p>
+
+<p>
+  <img src="https://img.shields.io/badge/HTML5-302733?style=flat-square&logo=html5&logoColor=EDE5EF" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-302733?style=flat-square&logo=css3&logoColor=EDE5EF" alt="CSS3" />
+  <img src="https://img.shields.io/badge/TypeScript-302733?style=flat-square&logo=typescript&logoColor=EDE5EF" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Angular-302733?style=flat-square&logo=angular&logoColor=EDE5EF" alt="Angular" />
+  <img src="https://img.shields.io/badge/React-302733?style=flat-square&logo=react&logoColor=EDE5EF" alt="React" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-302733?style=flat-square&logo=tailwindcss&logoColor=EDE5EF" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Bootstrap-302733?style=flat-square&logo=bootstrap&logoColor=EDE5EF" alt="Bootstrap" />
+</p>
+
+<p align="right"><sub><i>Always learning. Always refining.</i></sub></p>
+
+---
+
+<h2 id="selected-work"><i>03 / Selected work</i></h2>
+
+<p><i>Selected projects and experiments in web development and design.</i></p>
 
 <p align="center">
+  <a href="https://github.com/xMelw/CallCenterPrototype">
+    <img src="./assets/xmelw-project-angular.svg" width="100%" alt="Contact Center — Angular project developed during my Altice internship" />
+  </a>
+</p>
+
+<!-- Uncomment when the portfolio project is ready to feature.
+
+<p align="center">
+  <a href="https://stylem.lovable.app/">
+    <img src="./assets/xmelw-project-portfolio.svg" width="100%" alt="Stylem — personal portfolio" />
+  </a>
+</p>
+
+-->
+
+<!-- Add the React project card when its repository is ready to share. -->
+
+<p align="right"><sub><i>More work in progress ↗</i></sub></p>
+
+---
+
+<h2 id="approach"><i>04 / Creative process</i></h2>
+
+<div align="center">
+  <img src="./assets/xmelw-process.svg" width="100%" alt="Explore, create, refine — a considered approach to design and development" />
+</div>
+
+---
+
+<h2 id="activity"><i>05 / GitHub activity</i></h2>
+
+<p align="center">
+  <i>A little consistency goes a long way.</i>
+</p>
+
+<div align="center">
+  <img
+    src="https://raw.githubusercontent.com/xMelw/xMelw/output/github-readme-snake-plum.svg"
+    width="100%"
+    alt="Animated contribution snake travelling across my GitHub contribution graph"
+  />
+</div>
+
+---
+
+<h2 id="currently"><i>06 / Currently exploring</i></h2>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**01 — Development**
+
+Strengthening my front-end skills and building more polished, responsive web interfaces.
+
+</td>
+<td width="50%" valign="top">
+
+**02 — Design**
+
+Exploring the relationship between visual identity, usability and thoughtful interaction.
+
+</td>
+</tr>
+</table>
+
+<div align="center">
   <img src="./assets/xmelw-orbit.svg" width="100%" alt="" />
-</p>
+  <br />
+<!--
+  <a href="https://stylem.lovable.app/">
+    <img src="https://img.shields.io/badge/Portfolio-755477?style=for-the-badge&logoColor=FCFBFD" alt="Visit my portfolio" />
+  </a>
+-->
+  <!--<br /><br />-->
 
-<p align="center">
-  <sub>Made with intention &nbsp;·&nbsp; Built with curiosity</sub>
-</p>
+  <sub><i>Designed with intention. Developed with curiosity.</i></sub>
+</div>
