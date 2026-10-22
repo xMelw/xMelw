@@ -1,0 +1,49 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230">
+  <defs>
+    <linearGradient id="canvas" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FCFBFD"/>
+      <stop offset="100%" stop-color="#F5F1F6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="230" rx="24" fill="url(#canvas)"/>
+
+  <path d="M170 74 H1030" stroke="#B99BC1" stroke-width="1.5" stroke-dasharray="4 8"/>
+
+  <g transform="translate(200 74)">
+    <circle r="37" fill="#EDE5EF"/>
+    <circle r="25" fill="none" stroke="#755477" stroke-opacity=".65"/>
+    <circle r="12" fill="none" stroke="#755477" stroke-width="1.5"/>
+    <circle cx="25" cy="-23" r="4" fill="#B99BC1"/>
+    <circle cx="-21" cy="18" r="3" fill="#755477"/>
+  </g>
+
+  <g transform="translate(600 74)">
+    <circle r="37" fill="#755477"/>
+    <path d="M-15 10 L-4 -14 L5 4 L14 -8" fill="none" stroke="#FCFBFD" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="-15" cy="10" r="3" fill="#DCCBDD"/>
+    <circle cx="-4" cy="-14" r="3" fill="#DCCBDD"/>
+    <circle cx="5" cy="4" r="3" fill="#DCCBDD"/>
+    <circle cx="14" cy="-8" r="3" fill="#DCCBDD"/>
+  </g>
+
+  <g transform="translate(1000 74)">
+    <circle r="37" fill="#E2D3E6"/>
+    <path d="M-14 1 L-4 11 L16 -12" fill="none" stroke="#59415E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="22" cy="-22" r="4" fill="#B99BC1"/>
+  </g>
+
+  <g text-anchor="middle" fill="#302733">
+    <text x="200" y="139" font-family="Georgia, serif" font-size="24" font-style="italic">01. Explore</text>
+    <text x="200" y="165" font-family="Arial, sans-serif" font-size="13" fill="#755477">Ideas, references &amp; possibilities</text>
+
+    <text x="600" y="139" font-family="Georgia, serif" font-size="24" font-style="italic">02. Create</text>
+    <text x="600" y="165" font-family="Arial, sans-serif" font-size="13" fill="#755477">Design meets development</text>
+
+    <text x="1000" y="139" font-family="Georgia, serif" font-size="24" font-style="italic">03. Refine</text>
+    <text x="1000" y="165" font-family="Arial, sans-serif" font-size="13" fill="#755477">Details, usability &amp; polish</text>
+  </g>
+
+  <text x="600" y="207" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-style="italic" fill="#755477">A little iteration makes a big difference.</text>
+</svg>
