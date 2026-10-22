@@ -1,0 +1,45 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#302733"/>
+      <stop offset="100%" stop-color="#59415E"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EDE5EF"/>
+      <stop offset="100%" stop-color="#B99BC1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="260" rx="24" fill="url(#bg)"/>
+  <circle cx="1050" cy="70" r="105" fill="#755477" opacity=".32"/>
+  <circle cx="1050" cy="70" r="76" fill="none" stroke="#DCCBDD" stroke-opacity=".45"/>
+  <circle cx="1050" cy="70" r="49" fill="none" stroke="#DCCBDD" stroke-opacity=".3"/>
+  <circle cx="1120" cy="145" r="5" fill="#EDE5EF"/>
+  <circle cx="980" cy="20" r="4" fill="#B99BC1"/>
+
+  <g transform="translate(805 53)">
+    <rect width="265" height="150" rx="13" fill="#FCFBFD" fill-opacity=".08" stroke="#EDE5EF" stroke-opacity=".6"/>
+    <rect x="13" y="13" width="239" height="20" rx="5" fill="#EDE5EF" fill-opacity=".16"/>
+    <circle cx="24" cy="23" r="3" fill="#B99BC1"/>
+    <circle cx="35" cy="23" r="3" fill="#DCCBDD"/>
+    <circle cx="46" cy="23" r="3" fill="#FCFBFD"/>
+    <rect x="15" y="47" width="66" height="88" rx="7" fill="#B99BC1" fill-opacity=".2"/>
+    <rect x="91" y="47" width="147" height="31" rx="6" fill="#EDE5EF" fill-opacity=".17"/>
+    <rect x="91" y="86" width="147" height="7" rx="3.5" fill="#EDE5EF" fill-opacity=".48"/>
+    <rect x="91" y="101" width="111" height="7" rx="3.5" fill="#EDE5EF" fill-opacity=".25"/>
+    <rect x="91" y="116" width="128" height="7" rx="3.5" fill="#EDE5EF" fill-opacity=".25"/>
+  </g>
+
+  <text x="58" y="51" font-family="Arial, sans-serif" font-size="13" letter-spacing="4" fill="#DCCBDD">01 — INTERNSHIP PROJECT</text>
+  <text x="56" y="112" font-family="Georgia, serif" font-size="43" font-style="italic" fill="#FCFBFD">Contact Center</text>
+  <text x="59" y="151" font-family="Arial, sans-serif" font-size="18" fill="#EDE5EF">Angular interface · Altice</text>
+
+  <rect x="59" y="178" width="94" height="27" rx="13.5" fill="#EDE5EF" fill-opacity=".12" stroke="#DCCBDD" stroke-opacity=".5"/>
+  <text x="106" y="196" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" letter-spacing="1" fill="#FCFBFD">FRONT-END</text>
+  <rect x="163" y="178" width="90" height="27" rx="13.5" fill="#EDE5EF" fill-opacity=".12" stroke="#DCCBDD" stroke-opacity=".5"/>
+  <text x="208" y="196" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" letter-spacing="1" fill="#FCFBFD">ANGULAR</text>
+
+  <text x="1140" y="224" text-anchor="end" font-family="Georgia, serif" font-size="17" font-style="italic" fill="#EDE5EF">Explore ↗</text>
+  <path d="M58 231 H255" stroke="#B99BC1" stroke-opacity=".6"/>
+</svg>
