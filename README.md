@@ -92,7 +92,7 @@ My interests lie in front-end development, web design and UI/UX — combining te
 <!-- Add the React project card when its repository is ready to share. -->
 
 <p align="center">
-  <a href="https://stylem.lovable.app/">
+  <a href="https://github.com/xMelw/ProjetoOLX">
     <img src="./assets/xmelw-project-react.svg" width="100%" alt="Stylem — personal portfolio" />
   </a>
 </p>
