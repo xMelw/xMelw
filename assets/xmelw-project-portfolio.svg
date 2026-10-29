@@ -27,7 +27,7 @@
   <circle cx="1035" cy="177" r="15" fill="#B99BC1" fill-opacity=".4"/>
   <path d="M1029 177 l5 5 8 -10" fill="none" stroke="#FCFBFD" stroke-width="2" stroke-linecap="round"/>
 
-  <text x="58" y="51" font-family="Arial, sans-serif" font-size="13" letter-spacing="4" fill="#755477">02 — PERSONAL PROJECT</text>
+  <text x="58" y="51" font-family="Arial, sans-serif" font-size="13" letter-spacing="4" fill="#755477">02 — PORTFOLIO</text>
   <text x="56" y="119" font-family="Georgia, serif" font-size="49" font-style="italic" fill="#302733">Stylem</text>
   <text x="59" y="155" font-family="Arial, sans-serif" font-size="18" fill="#59415E">A personal space for design &amp; web</text>
 
