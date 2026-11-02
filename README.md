@@ -79,17 +79,11 @@ My interests lie in front-end development, web design and UI/UX — combining te
   </a>
 </p>
 
-<!-- Uncomment when the portfolio project is ready to feature.
-
 <p align="center">
   <a href="https://stylem.lovable.app/">
     <img src="./assets/xmelw-project-portfolio.svg" width="100%" alt="Stylem — personal portfolio" />
   </a>
 </p>
-
--->
-
-<!-- Add the React project card when its repository is ready to share. -->
 
 <p align="center">
   <a href="https://github.com/xMelw/ProjetoOLX">
